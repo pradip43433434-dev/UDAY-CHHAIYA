@@ -1,0 +1,6 @@
+{
+  "name": "OJAS Test Prep",
+  "description": "An interactive Gujarat state competitive exam preparation platform featuring high-fidelity mock tests, offline-first progress trackers, course modules, and active recruitment news updates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

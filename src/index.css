@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Noto+Sans+Gujarati:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --font-sans: 'Noto Sans', 'Noto Sans Gujarati', system-ui, -apple-system, sans-serif;
+
+  --color-brand-primary: #1A73E8;
+  --color-brand-primary-dark: #1557b0;
+  --color-brand-success: #34A853;
+  --color-brand-warning: #FBBC05;
+  --color-brand-background: #F8F9FA;
+  
+  --color-surface-tint: #005bc0;
+  --color-surface-container: #ebeef4;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-background);
+  color: #181c20;
+}
+
+/* Custom shadow classes to match Level 1 / Level 2 elevations */
+.shadow-lvl1 {
+  shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
+
+.shadow-lvl2 {
+  shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+}
+
